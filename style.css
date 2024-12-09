@@ -17,6 +17,22 @@ body {
     height: 100vh;
 }
 
+#grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 1px;
+    margin: 20px 0;
+}
+
+.tile {
+    width: 40px;
+    height: 40px;
+    background-color: #444;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
 button {
     background-color: #ff9800;
     color: #000000;
