@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Initialize the editor
     const editor = document.getElementById('editor');
     const title = document.createElement('h1');
-    title.innerText = "Room FPS Level Editor";
+    title.innerText = "ROOM - EDITOR";
     editor.appendChild(title);
 
     const testButton = document.createElement('button');
